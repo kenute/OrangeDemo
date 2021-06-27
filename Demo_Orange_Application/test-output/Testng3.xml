@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Testing orange demo" >
+<listeners>
+		<listener class-name="com.Orange_Demo_Utilities.Reporting_new" />
+	</listeners>
+
+    <test name="Regression" >
+         <classes>
+    
+             <class name="com.Demo_Orange.TestCases.Login_TestCase"/>
+           <!--    <class name="com.Demo_Orange.TestCases.Timesheets_john"/>--> 
+             <class name="com.Demo_Orange.TestCases.Recuiters"/>
+                                                                 
+                 
+          </classes>
+          
+     </test> 
+     <!-- 
+ <test name="Regression2">
+         <classes>
+    
+             <class name="com.Demo_Orange.TestCases.Login_TestCase"/>
+              <class name="com.Demo_Orange.TestCases.Timesheets_john"/>
+             
+                                                                 
+                 
+          </classes>
+          </test>   -->
+</suite>
