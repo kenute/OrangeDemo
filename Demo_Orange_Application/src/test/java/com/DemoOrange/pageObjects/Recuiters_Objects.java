@@ -34,6 +34,7 @@ WebDriver driver;
 	public void  sel2(String val) {
 		Select s1=new Select(sel2);
 	s1.selectByVisibleText(val);
+			System.out.println("lam");
 	}
 	
 }
